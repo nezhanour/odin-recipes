@@ -1,0 +1,31 @@
+.allimages{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+p, li{
+    font-family: "Courier New", sans-serif;
+    font-size: 18px;
+}
+
+.headers, .links{
+    font-family: Monaco, Times, sans-serif
+}
+
+.mightlike{
+    text-align: center;
+    color: rgb(21, 21, 161);
+}
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(10, 47, 10);
+}
+
+a:hover{
+    background-color: burlywood;
+}
+
