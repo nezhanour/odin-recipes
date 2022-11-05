@@ -1,31 +1,158 @@
-.allimages{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-height: 100%;
     max-width: 100%;
-    height: auto;
-    border-radius: 50px;
+    border-radius: 40px;
+}
+body{
+    background-color: rgb(247, 221, 225);
+    font-family: Monaco, Times, sans-serif;
 }
 
-p, li{
-    font-family: "Courier New", sans-serif;
-    font-size: 18px;
+.navbar{ 
+    background-color: rgb(207, 166, 173);
+    padding: 10px;
+    justify-content: center;
 }
 
-.headers, .links{
-    font-family: Monaco, Times, sans-serif
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-.mightlike{
-    text-align: center;
-    color: rgb(21, 21, 161);
+.logo{
+    display: flex;
+    justify-content: flex-start;
 }
+
+.logo-image{
+    max-width: 50px;
+}
+
+.site-name{
+    align-self: center;
+    margin-left: 5px;
+}
+
+.about{
+    margin-left: auto;
+}
+
+.blog, .contact, .recipes{
+    margin-left: 20px;
+
+}
+
+a:hover{
+    background-color:rgb(81, 69, 71);
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+
 a:link{
     text-decoration: none;
 }
 
-a:visited{
-    color: rgb(10, 47, 10);
+a{
+    color: rgb(250, 247, 247);
 }
 
-a:hover{
-    background-color: burlywood;
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+
+h1,h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.description-container{
+    padding: 20px 10px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.description-container > *{
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+}
+
+.descriptionpara{
+    text-indent:20px;
+    align-self: center;
+    max-width: 400px;
+    color: rgb(80, 1, 1);
+
+}
+
+.twoflex{
+    /*border: 5px solid rgb(239, 75, 75);*/
+    display: flex;
+    gap: 15px;
+}
+
+.process{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    /*border: 5px solid burlywood;*/
+    gap: 10px;
+}
+
+.headers{
+    /*border: 5px solid rgb(112, 230, 175);*/
+    align-self: center;
+}
+.ingredients,.steps{
+    /*border: 5px solid rgb(182, 109, 214);*/
+    padding-left: 40px;
+}
+
+.ads{
+    /*border: 5px solid rgb(10, 28, 227);*/
+    flex: 1;
+    display: flex;
+}
+
+li{
+    background: #ffe5e5;
+    color: rgb(80, 1, 1);
+    padding: 5px;
+}
+
+div.polaroid {
+    border: 5px solid blueviolet;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+.polariod-flex{
+    
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.polaroid > *{
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
 }
 
