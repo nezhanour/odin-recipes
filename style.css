@@ -9,7 +9,6 @@ img{
     border-radius: 40px;
 }
 body{
-    background-color: rgb(247, 221, 225);
     font-family: Monaco, Times, sans-serif;
 }
 
@@ -129,30 +128,12 @@ li{
     color: rgb(80, 1, 1);
     padding: 5px;
 }
-
 div.polaroid {
-    border: 5px solid blueviolet;
-    width: 50%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    margin-bottom: 25px;
   }
   
-div.container {
+  div.container {
     text-align: center;
     padding: 10px 20px;
   }
-
-.polariod-flex{
-    
-    border: 5px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-div.polaroid > *{
-    flex: 1;
-    min-width: 0;
-    min-height: 0;
-}
-
