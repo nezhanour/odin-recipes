@@ -10,17 +10,15 @@ img{
     border-radius: 40px;
 }
 
-.navbar{ 
+.navbar, footer{ 
     background-color: rgb(207, 166, 173);
     padding: 10px;
-    justify-content: center;
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo{
@@ -62,7 +60,7 @@ a{
 }
 
 a:visited{
-    color: rgb(255, 255, 255);
+    color: rgb(76, 66, 110);
 }
 
 
@@ -150,10 +148,7 @@ div.polaroid {
     justify-content: center;
     gap: 10px;
 }
-
-.home{
-    color:rgb(10, 8, 8);
-}
-.home:visited{
-    color: black;
+footer{
+    
+    display: flex;
 }
