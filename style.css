@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Monaco, Times, sans-serif;
 }
+body{
+    background-color: #FFEEDB;
+}
 img{
     max-height: 100%;
     max-width: 100%;
@@ -11,7 +14,7 @@ img{
 }
 
 .navbar, footer{ 
-    background-color: rgb(207, 166, 173);
+    background-color: #FFBD9B;
     padding: 10px;
 }
 
@@ -88,7 +91,7 @@ h1{
     text-indent:20px;
     align-self: center;
     max-width: 400px;
-    color: rgb(80, 1, 1);
+    color: #0A1D37;
 
 }
 
@@ -117,8 +120,8 @@ h1{
     margin: 10px;
 }
 .ingredients,.steps{
-    background: #ffe5e5;
-    color: rgb(80, 1, 1);
+    background: #FFD8CC;
+    color: #0A1D37;
     padding: 20px 50px ;
     margin-left: 18px;
 }
@@ -136,7 +139,7 @@ div.polaroid {
     width: 20%;
     margin: 25px;
     /*border: 7px solid red;*/
-    background: #ffe5e5;
+    background: #FFD8CC;
     border-radius: 40px;
     box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
