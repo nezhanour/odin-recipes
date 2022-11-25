@@ -174,3 +174,15 @@ footer > *{
     justify-content: center;
 }
 
+.follow{
+    justify-content: space-between;
+}
+
+.links{
+    justify-content: space-evenly;
+}
+
+.contactform{
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
