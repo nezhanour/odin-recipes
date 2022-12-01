@@ -122,7 +122,8 @@ h1{
 .ingredients,.steps{
     background: #FFD8CC;
     color: #0A1D37;
-    padding: 20px 50px ;
+    padding: 20px 50px;
+    margin: 20px 18px;
 }
 
 .ads{
