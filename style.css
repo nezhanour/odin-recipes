@@ -177,6 +177,22 @@ footer > *{
 .follow{
     justify-content: space-between;
 }
+.follow a:nth-child(1) i {
+	color: #d34836;
+}
+.follow .twitter a i{
+	color: #4099FF;
+}
+
+.follow .instagram a i{
+    color: #8a3ab9;
+}
+.follow .facebook a i{
+    color: #3b5998 ;
+}
+.follow a i:hover{
+	color: black;
+}
 
 .links{
     justify-content: space-evenly;
