@@ -201,4 +201,17 @@ footer > *{
 .contactform{
     justify-content: space-evenly;
     align-items: flex-start;
+    gap: 5px;
 }
+
+.buttons input{
+    background-color: #0A1D37;
+    color: #FFEEDB;
+    border: #0A1D37;
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttons input:hover {
+    background-color: #FFEEDB; /* Green */
+    color: #0A1D37;
+  }
