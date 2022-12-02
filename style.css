@@ -6,6 +6,7 @@
 }
 body{
     background-color: #FFEEDB;
+    text-align: left;
 }
 img{
     max-height: 100%;
@@ -173,6 +174,11 @@ footer > *{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.weare{
+    align-items: flex-start;
+    gap: 5px;
 }
 
 .follow{
