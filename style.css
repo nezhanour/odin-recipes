@@ -68,7 +68,6 @@ a:visited{
     color: rgb(76, 66, 110);
 }
 
-
 h1{
     text-align: center;
     margin: 20px 0;
@@ -86,14 +85,20 @@ h1{
     height: 40vh;
     margin-left: 10px;
 } 
-
-
+.homepicture{
+    padding: 0 20px;
+}
 .descriptionpara{
     text-indent:20px;
     align-self: center;
     max-width: 400px;
     color: #0A1D37;
+}
 
+.homedescriptionpara{
+    color: #0A1D37;
+    font-size: 34px;
+    margin: 60px;
 }
 
 .twoflex{
